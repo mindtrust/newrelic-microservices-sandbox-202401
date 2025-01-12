@@ -2,7 +2,7 @@ variable "cluster_name" {
   type = string
 }
 
-variable "kubernetes_version" {
-  type    = string
-  default = "1.21"
-}
+# variable "kubernetes_version" {
+#   type    = string
+#   default = "1.21"
+# }

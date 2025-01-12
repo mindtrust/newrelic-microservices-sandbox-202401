@@ -1,6 +1,5 @@
 resource "aws_eks_cluster" "nr_sandbox" {
   name     = var.cluster_name
-  version  = var.kubernetes_version
   role_arn = aws_iam_role.nr_sandbox-cluster.arn
 
   vpc_config {
